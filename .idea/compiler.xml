@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bookstore-backend" />
+        <module name="gate-way" />
+        <module name="payment" />
+        <module name="transportaion-app" />
+        <module name="eureka-server" />
+        <module name="bookstore-ui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bookstore-backend" target="17" />
+      <module name="bookstore-microservices" target="17" />
+      <module name="bookstore-ui" target="17" />
+      <module name="eureka-server" target="17" />
+      <module name="gate-way" target="17" />
+      <module name="payment" target="17" />
+      <module name="transportaion-app" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

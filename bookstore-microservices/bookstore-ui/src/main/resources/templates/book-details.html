@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{layout/masterLayout :: layout(~{::main})}" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <main role="main">
+    <div class="container mt-5">
+      <div th:replace="~{fragments/book-detail.html :: bookDetail}"></div>
+        <div class="my-4">
+            <a th:href="@{'/bookstore/book/cart/' + ${book.id}}" class="btn btn-outline-info mr-3">AddToCart</a>
+            <a th:href="@{/}" class="btn btn-outline-primary mr-3">ContinueShopping</a>
+            <a th:href="@{/bookstore/book/cart/view}" class="btn btn-outline-danger">ViewCart</a>
+        </div>
+    </div>
+  </main>
+</body>
+</html>

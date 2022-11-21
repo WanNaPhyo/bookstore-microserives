@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bookstore-microservices/bookstore-backend/bookstore-backend.iml" filepath="$PROJECT_DIR$/bookstore-microservices/bookstore-backend/bookstore-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookstore-microservices/bookstore-microservices.iml" filepath="$PROJECT_DIR$/bookstore-microservices/bookstore-microservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/bookstore-microservices 2.iml" filepath="$PROJECT_DIR$/.idea/bookstore-microservices 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookstore-microservices/bookstore-ui/bookstore-ui.iml" filepath="$PROJECT_DIR$/bookstore-microservices/bookstore-ui/bookstore-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookstore-microservices/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/bookstore-microservices/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookstore-microservices/gate-way/gate-way.iml" filepath="$PROJECT_DIR$/bookstore-microservices/gate-way/gate-way.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookstore-microservices/payment/payment.iml" filepath="$PROJECT_DIR$/bookstore-microservices/payment/payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bookstore-microservices/transportaion-app/transportaion-app.iml" filepath="$PROJECT_DIR$/bookstore-microservices/transportaion-app/transportaion-app.iml" />
+    </modules>
+  </component>
+</project>
